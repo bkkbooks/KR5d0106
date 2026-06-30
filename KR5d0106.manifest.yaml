@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5d0106/v1
+canonical_location: https://kanripo.org/bkk/KR5d0106/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 龍虎元旨
+  identifiers:
+    alt_id:
+    - DZ1083
+  date: '2015-08-29 02:05:09.946650'
+  source:
+    repository: kanripo
+    path: KR5d0106
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5d0106_000.yaml, hash: 'sha256:38be51ea668a7692f3d7b98efc042510c37997673d87442a31fdcd3d267c3826'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5d0106_000.markers.yaml, hash: 'sha256:0faed806be13cd5ee6c62cccd9ca3a851d99bd9f1baf30daad2559447d03de86'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5d0106_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2790
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:b3671aa8b4ea4252a883c0da8db1347dfedb229c85755b98c29be811825b5a40
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

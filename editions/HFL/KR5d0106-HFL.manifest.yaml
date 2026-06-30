@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5d0106/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5d0106/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 龍虎元旨
+  date: '2015-08-29 02:05:09.946650'
+  source:
+    repository: kanripo
+    path: KR5d0106
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5d0106_000-HFL.yaml, hash: 'sha256:1d01f8b2f03c8b8a89e37036a1513ec985eecfe0ff14dc52a23752e5903753fa'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5d0106_000-HFL.markers.yaml, hash: 'sha256:f93bab8bab99e0a5f04f757077bdd0bf54e1ada029fb712076503dba7264ac84'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5d0106_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2790
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:7b4cbceeacc5e360c1205b3fea75fee966d1451f9fe16b2c7f797a9b610561d2
